@@ -8,7 +8,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-body {
+body, html {
     height: 100%;
 }
 /* Customizations */
@@ -32,6 +32,7 @@ section{
 section .image{
     padding-right: 100px;
 }
+
 section .form-box {
     display: flex;
     flex-direction: column;
@@ -41,9 +42,31 @@ section .form-box {
     border-left: 8px double black;
     padding-left: 100px;
 }
+
 section .form {
-    padding: 0 318.5px;
-    
-    
+    /* padding: 0 318.5px; */
+    font-size: 1.5rem; 
+}
+
+section input {
+    width: 800px;
+    /* padding-bottom: 10px; */
+}
+
+section #username, #title {
+    height: 30px;
+}
+
+section #content {
+    height: 150px;
+}
+
+section button {
+    width: 800px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
 }
 
