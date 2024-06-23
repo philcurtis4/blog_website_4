@@ -70,3 +70,24 @@ section button {
     font-size: 1rem;
 }
 
+/* DARK MODE */
+
+header.darkMode {
+    background-color: #28282B;
+}
+
+section.darkMode {
+    background-color: #28282B;
+}
+
+header.darkMode {
+    color: #D3D3D3;
+}
+
+label.darkMode {
+    color: #D3D3D3;
+}
+
+.submit.darkMode {
+    color:rgb(243, 175, 48);
+}
