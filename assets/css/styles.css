@@ -23,6 +23,12 @@ header h1 {
     font-size: 2rem;
 }
 
+header  button {
+    background-color: black;
+    width: 100px;
+    color: white;
+}
+
 section{
     display: flex;
     justify-content:center;
@@ -33,7 +39,7 @@ section .image{
     padding-right: 100px;
 }
 
-section .form-box {
+section .formBox {
     display: flex;
     flex-direction: column;
     height: 100vh; /* 100% of the viewport height */
@@ -78,10 +84,12 @@ header.darkMode {
 
 section.darkMode {
     background-color: #28282B;
+    
 }
 
 header.darkMode {
     color: #D3D3D3;
+    border-bottom: 8px double #696969;
 }
 
 label.darkMode {
@@ -90,4 +98,14 @@ label.darkMode {
 
 .submit.darkMode {
     color:rgb(243, 175, 48);
+}
+
+header button.darkMode{
+    background-color: #D3D3D3;
+    color: black;
+}
+
+section .formBox.darkMode {
+    border-left: 8px double #696969;
+    
 }

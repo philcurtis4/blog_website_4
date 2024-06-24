@@ -4,6 +4,7 @@ const darkModeButton = document.querySelector('#dark-mode-button');
 const headerClass = document.querySelector('header');
 const sectionClass = document.querySelector('section');
 const submitClass = document.querySelector('.submit');
+const formBoxClass = document.querySelector('.formBox')
 
 console.log(darkModeButton.textContent);
 let darkMode = function () {
@@ -13,6 +14,7 @@ let darkMode = function () {
     headerClass.classList.toggle('darkMode');
     sectionClass.classList.toggle('darkMode');
     submitClass.classList.toggle('darkMode');
+    formBoxClass.classList.toggle('darkMode');
 
 
     //change the dark mode button to light mode
