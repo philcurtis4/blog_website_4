@@ -20,7 +20,7 @@ let darkMode = function () {
     //change the dark mode button to light mode
     if (darkModeButton.textContent === 'Dark Mode') {
         darkModeButton.innerHTML = 'Light Mode';
-       console.log(darkModeButton.textContent)
+       
     } else {
         darkModeButton.innerHTML = 'Dark Mode';
         
