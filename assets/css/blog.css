@@ -87,3 +87,31 @@ header.darkMode {
     color: #D3D3D3;
     border-bottom: 8px double #696969;
 }
+
+body.darkMode {
+    background-color: #28282B;
+}
+
+article.darkMode {
+    border-right: 3px solid #696969;
+    border-left: 3px solid #696969;
+    border-top: 5px double #696969;
+    border-bottom: 5px double #696969;
+}
+
+main h3.darkMode {
+    color: #D3D3D3;
+    border-bottom: 3px solid #696969;
+}
+
+main .content.darkMode, footer h3.darkMode {
+    color: #D3D3D3;
+}
+
+main.darkMode {
+    border-bottom: 8px double #696969;
+}
+
+.postedBy.darkMode {
+    color: #D3D3D3
+}
