@@ -41,10 +41,9 @@ let darkModeBlog = function () {
               }
 
     
-
-            
-
 }
 
 
     darkModeButtonBlog.addEventListener('click', darkModeBlog);
+
+    
