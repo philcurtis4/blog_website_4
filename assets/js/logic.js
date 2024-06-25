@@ -6,9 +6,9 @@ const sectionClass = document.querySelector('section');
 const submitClass = document.querySelector('.submit');
 const formBoxClass = document.querySelector('.formBox')
 
-console.log(darkModeButton.textContent);
+
 let darkMode = function () {
-   
+    
     //changes to the styles
     darkModeButton.classList.toggle('darkMode');
     headerClass.classList.toggle('darkMode');
@@ -36,6 +36,7 @@ let darkMode = function () {
 }
 
 darkModeButton.addEventListener('click', darkMode);
+
 
 
 
