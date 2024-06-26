@@ -46,4 +46,40 @@ let darkModeBlog = function () {
 
     darkModeButtonBlog.addEventListener('click', darkModeBlog);
 
+
+/* form handling */
+
+function getBlogs () {
+    const blogs = JSON.parse(localStorage.getItem('blogs')) || [];
+    return blogs;
+}
+
+function outputBlogs () {
+    // get the raw blogs from local
+
+    const blogs = getBlogs();
+
+    //target the container
+
+    const container = document.querySelector('main');
+
+    //clear existing obj
+
+     //container.innerHTML = "";
+
+    //loop over each object in the array and output a blog in our main container
+
+    for (const blogObj of blogs) {
+        container.insertAdjacentHTML('beforeend', `
+            <article class="blog-post">
+                <h3 class="postTitle">${blogObj.title}</h3>
+                <p class="content">${blogObj.content}</p>
+                <p class="postedBy">posted by ${blogObj.username} on ${blogObj.date}</p>
+            </article>
+            `)
+    }
     
+}
+
+outputBlogs();
+

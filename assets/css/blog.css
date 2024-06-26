@@ -12,6 +12,11 @@ body, html {
     height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Customizations */
 header{
     display: flex;
@@ -32,11 +37,12 @@ header button {
 main {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    
     justify-content: flex-start;
     margin-top: 10px;
     border-bottom: 8px double black;
-    min-height: 731px;
+    
+    flex: 1;
 }
 
 main article {
@@ -52,7 +58,7 @@ main article {
 
 main h3 {
     
-    padding-right: 1710px;
+    
     margin: 0 20px;
     border-bottom: 3px solid black;
 }
@@ -73,10 +79,10 @@ p.postedBy {
 }
 
 footer {
-    position: fixed;
-    bottom: 20px;
-    width: 100%;
-    left: 900px;
+   
+    text-align: center;
+    padding: 25px 0;
+    
     
 }
 
